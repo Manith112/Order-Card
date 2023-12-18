@@ -25,7 +25,10 @@ body{
     min-height: 100vh;
     background-image: url("./order-summary-component-main/images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+   
+    background-color: #dfe6fba3;
+    background-position: center -25%;
 }
 .container{
     border-radius: 15px;
@@ -96,6 +99,7 @@ body{
     font-weight: 600;
     color: var(--Very-pale-blue);
     background-color: var(--Bright-blue);
+    box-shadow: 0px 15px 4px -3px rgba(0,0,0,0.1);
 }
 .proceed:hover{
     cursor: pointer;
